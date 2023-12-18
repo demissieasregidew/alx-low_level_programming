@@ -6,8 +6,6 @@
  * 
  * Return: 0 on success
  */
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
