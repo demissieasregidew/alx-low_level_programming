@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-./betty-style.pl main.c
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -11,11 +10,11 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if ( n > 0 ){
-        printf("is positive");
+        printf("is positive\n");
 }else if( n == 0 ){
-        printf("is equal to zero");
+        printf("is equal to zero\n");
         }else{
-        printf("is negative");
+        printf("is negative\n");
 }
 	return 0;
 }
