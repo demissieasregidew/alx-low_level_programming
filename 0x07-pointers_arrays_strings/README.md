@@ -1,0 +1,1 @@
+pointe array string
